@@ -53,7 +53,6 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Epilogue", sans-serif;
   line-height: 1.2;
   margin-bottom: 1rem;
   color: var(--color-black);
@@ -346,4 +345,31 @@ p {
   font-size: var(--font-size-normal);
   font-weight: var(--font-weight-normal);
   line-height: var(--line-height-body);
+}
+
+/* footer */
+
+.footer {
+  padding: 42px 0px 86px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  flex: 50%;
+}
+
+.footer-right {
+  flex: 50%;
+  padding-left: 142px;
+}
+.footer_left_content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer_left_content h2 {
+  margin: 0;
 }
