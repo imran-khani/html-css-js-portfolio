@@ -11,6 +11,27 @@ toggleBtn.addEventListener("click", function () {
   });
 });
 
+// Close the menu on mobile
+
 function closeMenu() {
   navLinks.style.right = "-100%";
 }
+
+// Select the container where the stars will be appended
+let reviewContainer = document.querySelectorAll(".reviewStars");
+
+// Create a new array of length 5 and fill it with undefined values
+Array(5)
+  .fill()
+  .forEach(() => {
+    // Create a new img element
+    let star = document.createElement("img");
+
+    // Set the src attribute to the star image path
+    star.src = "img/Star.svg";
+
+    // Append the star image to the review container
+    reviewContainer.forEach((container) => {
+      container.appendChild(star.cloneNode(true));
+    });
+  });

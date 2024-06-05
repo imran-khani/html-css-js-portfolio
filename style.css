@@ -8,6 +8,7 @@
   --color-red: #ff6250;
   --color-black: #2d2d2d;
   --color-green: #009379;
+  --color-gray: #f3f3f3;
 
   /* Font Weights */
   --font-weight-light: 300;
@@ -287,4 +288,62 @@ nav {
 .gallery-card-info h3,
 p {
   margin: 0;
+}
+
+/* Testimonial */
+.testimonial {
+  padding: 68px 0;
+}
+.testimonial-card {
+  background-color: var(--color-gray);
+  padding: 42px;
+}
+
+.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-items: center;
+  gap: 24px;
+}
+
+.testimonial h2 {
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.testimonial-card p {
+  margin: 0;
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-subtitle);
+  margin-bottom: 68px;
+}
+.testimonial-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.testimonial .client-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+}
+.review .reviewImg .review .reviewImg {
+  margin-bottom: 11px;
+}
+.review .client-name {
+  font-size: var(--font-size-subtitle);
+  line-height: var(--line-height-subtitle);
+}
+
+.review .client-company {
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-body);
 }
