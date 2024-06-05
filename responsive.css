@@ -1,6 +1,5 @@
 /*  Responsive styling */
 
-
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -32,7 +31,7 @@
   }
 
   button {
-    padding:15px 24px;
+    padding: 15px 24px;
     background-color: var(--color-black);
     color: var(--color-white);
     border-radius: 5px;
@@ -74,7 +73,35 @@
     font-size: 24px;
     margin-top: 20px;
   }
-  .gallery{
+
+  /* gallery */
+  .gallery {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* footer */
+
+  .footer {
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 40px;
+  }
+
+  .footer-left {
+    flex: 1;
+  }
+
+  .footer-right {
+    flex: 1;
+    padding-left: 0;
+  }
+  .footer_left_content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer_left_content h2 {
+    margin: 0;
   }
 }
