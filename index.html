@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <nav>
+        <div class="nav-menu">
+          <div class="logo">
+            <a href="#">LOGO</a>
+          </div>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+          <button onclick="closeMenu()" class="close-button">X</button>
+        </div>
+      </nav>
+
+      <!-- main -->
+      <main>
+        <!-- hero -->
+        <section>
+          <div class="container hero">
+            <!-- left side of hero section -->
+            <div class="hero-left">
+              <div class="hero_left_content">
+                <h3>Branding | Image making</h3>
+                <h1>Visual Designer</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore repellendus laudantium necessitatibus repellat.
+                </p>
+                <a href="#contact">
+                  <button class="cta">Contact</button>
+                </a>
+              </div>
+            </div>
+
+            <!-- right side of hero section -->
+            <div class="hero-right">
+              <img src="img/HeaderImage 1.png" alt="hero-image" />
+            </div>
+          </div>
+        </section>
+
+        <!-- Brands worked with. section -->
+        <section>
+          <div class="container brands">
+            <img src="img/Google logo.svg" alt="brand1" />
+
+            <img src="img/nike.svg" alt="brand2" />
+
+            <img src="img/samsung.svg" alt="brand3" />
+
+            <img src="img/apple.svg" alt="brand4" />
+
+            <img src="img/adidas.svg" alt="brand5" />
+          </div>
+        </section>
+
+        <!-- skills section -->
+        <section>
+          <div class="container">
+            <div class="skills_section">
+              <div class="skill_card">
+                <img src="img/skill2.svg" alt="" />
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                  ab aliquid earum
+                </p>
+              </div>
+
+              <div class="skill_card">
+                <img src="img/skill1.svg" alt="" />
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                  ab aliquid earum
+                </p>
+              </div>
+
+              <div class="skill_card">
+                <img src="img/skill3.svg" alt="" />
+                <h3>Product Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                  ab aliquid
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Gallery section -->
+
+        <section>
+          <div class="container gallery-section">
+            <h2>Latest Work</h2>
+            <div class="gallery">
+              <div class="gallery-card">
+                <img src="img/project1.png" alt="" />
+                <div class="gallery-card-info">
+                  <h3>Project title</h3>
+                  <p>UI, Art drection</p>
+                </div>
+              </div>
+              <div class="gallery-card">
+                <img src="img/project2.png" alt="" />
+                <div class="gallery-card-info">
+                  <h3>Project title</h3>
+                  <p>UI, Art drection</p>
+                </div>
+              </div>
+              <div class="gallery-card">
+                <img src="img/project3.png" alt="" />
+                <div class="gallery-card-info">
+                  <h3>Project title</h3>
+                  <p>UI, Art drection</p>
+                </div>
+              </div>
+              <div class="gallery-card">
+                <img src="img/project4.png" alt="" />
+                <div class="gallery-card-info">
+                  <h3>Project title</h3>
+                  <p>UI, Art drection</p>
+                </div>
+              </div>
+              <div class="gallery-card">
+                <img src="img/project5.png" alt="" />
+                <div class="gallery-card-info">
+                  <h3>Project title</h3>
+                  <p>UI, Art drection</p>
+                </div>
+              </div>
+              <div class="gallery-card">
+                <img src="img/project6.png" alt="" />
+                <div class="gallery-card-info">
+                  <h3>Project title</h3>
+                  <p>UI, Art drection</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

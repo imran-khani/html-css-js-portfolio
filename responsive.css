@@ -1,0 +1,73 @@
+/*  Responsive styling */
+
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    background-color: var(--color-white);
+    transition: 0.5s;
+    justify-content: center;
+    z-index: 999;
+  }
+
+  nav .nav-links a {
+    padding: 1rem 0;
+  }
+
+  nav .nav-links .close-button {
+    display: block;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 0;
+    gap: 40px;
+  }
+  .hero .hero_left_content h1 {
+    font-size: 56px;
+  }
+
+  .hero-right img {
+    margin-top: 20px;
+  }
+
+  /* brands */
+  .brands {
+    gap: 30px;
+    justify-content: space-around;
+  }
+
+  /* skills section */
+
+  .skills_section {
+    flex-direction: column;
+  }
+
+  .skill_card {
+    flex-direction: column;
+    padding: 4px 0;
+    margin-bottom: 30px;
+    text-align: left;
+    align-items: start;
+  }
+  .skill_card h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .gallery{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
