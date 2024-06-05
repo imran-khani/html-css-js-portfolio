@@ -93,15 +93,7 @@
 
   .footer-right {
     flex: 1;
-    padding-left: 0;
-  }
-  .footer_left_content {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-
-  .footer_left_content h2 {
-    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 }

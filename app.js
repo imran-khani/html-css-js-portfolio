@@ -35,3 +35,10 @@ Array(5)
       container.appendChild(star.cloneNode(true));
     });
   });
+
+// prevent form default action
+
+const form = document.querySelector("form");
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+});
